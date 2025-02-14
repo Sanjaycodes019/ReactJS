@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 
 class Lifecycle extends Component {
-  // 🏗️ 1. Constructor (Initialization)
+  //  1. Constructor (Initialization)
   constructor() {
     super();
     console.log("Constructor: Initializing Component...");
     this.state = { data: null }; // Initialize state
   }
 
-  // ✅ 2. componentDidMount (Runs after the component is added to the screen)
+  //  2. componentDidMount (Runs after the component is added to the screen)
   componentDidMount() {
     console.log("componentDidMount: Fetching data...");
     // Simulating API Call
@@ -18,17 +18,17 @@ class Lifecycle extends Component {
     }, 2000);
   }
 
-  // 🔄 3. componentDidUpdate (Runs after the component updates)
+  //  3. componentDidUpdate (Runs after the component updates)
   componentDidUpdate(prevProps, prevState) {
     console.log("componentDidUpdate: Component Updated!");
   }
 
-  // ❌ 4. componentWillUnmount (Runs before the component is removed)
+  //  4. componentWillUnmount (Runs before the component is removed)
   componentWillUnmount() {
     console.log("componentWillUnmount: Cleanup before removing the component...");
   }
 
-  // 🎨 5. Render Method (Displays UI)
+  //  5. Render Method (Displays UI)
   render() {
     console.log("Render: Updating UI");
     return (

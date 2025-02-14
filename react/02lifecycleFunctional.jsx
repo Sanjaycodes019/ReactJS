@@ -4,7 +4,7 @@ const LifecycleFunctional = () => {
   // 🏗️ State for storing data
   const [data, setData] = useState(null);
 
-  // ✅ useEffect runs after the component is mounted (Similar to componentDidMount)
+  //  useEffect runs after the component is mounted (Similar to componentDidMount)
   useEffect(() => {
     console.log("useEffect (Mounting): Fetching data...");
     // Simulating API Call
@@ -19,7 +19,7 @@ const LifecycleFunctional = () => {
     };
   }, []); // Empty dependency array means it runs only once when mounted
 
-  // 🎨 Render UI
+  //  Render UI
   return (
     <div style={{ textAlign: "center", marginTop: "20px" }}>
       <h1>Functional Component Lifecycle</h1>
