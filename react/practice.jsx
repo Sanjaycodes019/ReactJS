@@ -46,6 +46,12 @@ Updating    shouldComponentUpdate(nextProps, nextState)
             render()	                       
             componentDidUpdate(prevProps, prevState)
 
-Unmounting 	componentWillUnmount()	                    
+Unmounting 	componentWillUnmount()	  
+
+
+Action	                            Lifecycle Method Triggered
+When the component is created	    constructor() → render() → componentDidMount()
+When state changes (button click)	shouldComponentUpdate() → render() → componentDidUpdate()
+When the component is removed	    componentWillUnmount()
 
 */
