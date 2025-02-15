@@ -1,0 +1,4 @@
+// fetch api provides an interface for fetching (sending/receiving) resources
+// uses request and response objects
+// fetch() method is used to fetch resource (data)
+
