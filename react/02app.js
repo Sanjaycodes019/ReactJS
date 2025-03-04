@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Lifecycle from "./lifecycle"; // Import Class Component
-import LifecycleFunctional from "./lifecycleFunctional"; // Import Functional Component
+import LifecycleFunctional from "./lifecycleFunctional"; // Import Functional Components
 
 function App() {
   const [show, setShow] = useState(true);
