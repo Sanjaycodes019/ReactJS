@@ -43,6 +43,7 @@ Performance	                ⚡ Faster	  🐢 Slower
 // type of array is always object
 
 // accessing array : index
+
 //console.log(arr1[0]);
  // array builtin methods
  // adding and removing elements
@@ -138,4 +139,3 @@ console.log(sorted);
 
 let result = brr.find(element => typeof element === 'string');
 console.log(result);  // only gives the first string
-
