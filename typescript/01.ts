@@ -69,3 +69,32 @@
 //     while(true) {}
 // }
 
+// type inference
+// understanding type inference
+// type annotations
+
+// let a = 12; //type inference
+// let a:number = 12; //type annotations
+
+// let a: number | boolean | string;
+//  a = 12;
+//  a = true;
+//  a = "sanjay"
+
+// function abc(a: number, b: string): void{
+// }
+
+// type aliases, intersection types
+
+// interface User{
+//     name:string,
+//     email:string,
+//     password:string
+// }
+
+// function getDataOfUser(obj: User){
+// }
+// // here obj is usertype // type aliases
+
+// getDataOfUser({name: "sanjay", email: "sanjay1621@", password:"hey012"});
+
