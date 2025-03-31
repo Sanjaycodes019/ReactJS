@@ -116,3 +116,13 @@
 //     // if user is used, only 3 properties are shown, if admin is 
 //     // used all the four properties are shown including admin.
 // }
+
+
+// type sankhya = number;
+// let a: sankhya;
+
+// a = 12 // type aliases
+
+// type value = string | number | null;
+// let a: value;
+
