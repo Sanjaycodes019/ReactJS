@@ -94,7 +94,25 @@
 
 // function getDataOfUser(obj: User){
 // }
-// // here obj is usertype // type aliases
+
+// //here obj is usertype // type aliases
 
 // getDataOfUser({name: "sanjay", email: "sanjay1621@", password:"hey012"});
 
+
+// extending interfaces
+
+// interface User{
+//     name:string;
+//     email:string;
+//     password:string;
+// }
+
+// interface Admin extends User{
+//     admin: boolean;
+// }
+
+// function abc(obj:user){
+//     // if user is used, only 3 properties are shown, if admin is 
+//     // used all the four properties are shown including admin.
+// }
