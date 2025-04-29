@@ -9,5 +9,5 @@ const course = {
 //console.log(course.courseTeacher);
 
 const {courseTeacher : instructor} = course;
-// console.log(instructor);
+ console.log(instructor);
 

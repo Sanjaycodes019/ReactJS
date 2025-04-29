@@ -17,7 +17,7 @@ const getFacts = async() => {
     console.log(data[0].text);
 }
 
- getFacts();.
+ getFacts();
 
 
 // understanding terms
