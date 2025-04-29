@@ -1,15 +1,15 @@
 let arr = [12, 23, 34, 45, 34, 67, 98];
 
-// arr.forEach((value, index)=>{
-//     console.log("Index: ", index, " Number: ", value);
-// })
+arr.forEach((value, index)=>{
+    console.log("Index: ", index, " Number: ", value);
+})
 
 let length = arr.length;
-// console.log("The length of the array is: " + length);
+  console.log("The length of the array is: " + length);
 
 // traditional for loop
 for(let index = 0; index < length; index++ ){
-    // console.log(index + " => " + arr[index]);
+     // console.log(index + " => " + arr[index]);
 }
 
 //forIn loop
@@ -21,7 +21,7 @@ let obj = {
     Weight: "70kg"
 };
 for(let key in obj){
-    //console.log(key,"=>", obj[key]);
+    // console.log(key,"=>", obj[key]);
 }
 
 // // for off loop
@@ -31,5 +31,5 @@ for(let key in obj){
 
 let fullName = "Sanjay Gupta";
 for(let val of fullName){
-    console.log(val);
+   // console.log(val);
 }

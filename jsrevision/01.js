@@ -5,7 +5,7 @@ let obj = {
     height: "5'10",
     course: "becse",
     greet: function(){
-       // console.log("hi im coding!");
+        console.log("hi im coding!");
     }
 };
 //console.log(obj);
